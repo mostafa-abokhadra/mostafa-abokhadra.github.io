@@ -4,8 +4,8 @@ app = Flask(__name__, static_url_path='/static')
 app.secret_key = os.urandom(12)
 
 @app.route('/', strict_slashes=False)
-def landing ():
-    return render_template('landing.html')
+def index ():
+    return render_template('index.html')
 
 @app.route('/feature', strict_slashes=False)
 def feature():
