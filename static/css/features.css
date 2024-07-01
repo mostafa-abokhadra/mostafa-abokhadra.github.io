@@ -58,3 +58,24 @@
     border: 1px solid black;
     border-radius: 50px 0px 50px 0px;
 }
+
+.employer {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pargag-and-description {
+    background-image: url('../videos/an-employer-unscreen.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60% 100%;
+    background-position: 50%;
+    height: 600px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
