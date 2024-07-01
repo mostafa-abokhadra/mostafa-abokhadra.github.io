@@ -38,4 +38,23 @@
     justify-content: center;
 }
 
-.nursing img {}
+.patient {
+    display: flex;
+}
+
+.patient-parag-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.patient-parag-video video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 50px 0px 50px 0px;
+}
