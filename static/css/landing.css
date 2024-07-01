@@ -1,0 +1,23 @@
+main {
+    width: 100%;
+}
+
+.landing-div {
+    height: 450px;
+    width: 100%;
+    background-position: 50%;
+    background-image: url('../imgs/0-landing.PNG');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-div h1 {
+    color: black;
+    font-weight: bolder;
+    background-image: url('../imgs/text.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

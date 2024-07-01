@@ -6,10 +6,11 @@
     <title>NPH</title>
     <link rel="stylesheet" href="{{url_for('static', filename='css/header.css')}}">
     <link rel="stylesheet" href="{{url_for('static', filename='css/footer.css')}}">
+    {%block style%}
+    {%endblock%}
 </head>
 <body>
     <header>
-        <div class="container">
             <section class="header-section">
                 <div class="logo-links">
                     <div class="sit-name">
@@ -18,7 +19,7 @@
                     <div class="links">
                         <ul>
                             <li>
-                                <a href="{{url_for('features')}}">features</a>
+                                <a href="{{url_for('feature')}}">features</a>
                             </li>
                             <li>
                                 <a href="{{url_for('about')}}">about</a>
@@ -30,12 +31,13 @@
                     <a href="#">website</a>
                 </div>
             </section>
-        </div>
     </header>
+    {%block content%}
+    {%endblock%}
     <footer>
-        <div class="container">
-            <span>footer</span>
-        </div>
+            <section class="footer-section">
+                    footer
+            </section>
     </footer>
 </body>
 </html>

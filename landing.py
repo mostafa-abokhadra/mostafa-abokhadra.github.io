@@ -1,19 +1,19 @@
-from flask import Flask, render_templates
+from flask import Flask, render_template
 import os
 app = Flask(__name__, static_url_path='/static')
 app.secret_key = os.urandom(12)
 
 @app.route('/', strict_slashes=False)
 def landing ():
-    return render_templates('landing.html')
+    return render_template('landing.html')
 
 @app.route('/feature', strict_slashes=False)
 def feature():
-    return render_templates('features.html')
+    return render_template('features.html')
 
 @app.route('/About', strict_slashes=False)
 def about():
-    return render_templates('about.html')
+    return render_template('about.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

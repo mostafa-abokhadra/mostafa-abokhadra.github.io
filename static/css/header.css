@@ -1,25 +1,83 @@
-header {
-    width: 100%
+* {
+    box-sizing: border-box;
 }
 
-header .container {
-    width: 90%;
-    margin: auto;
+body {
+    margin: 0px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightskyblue;
+}
+
+header {
+    /* width: 100%; */
+    margin-bottom: 15px;
 }
 
 .header-section {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #f7f7f7;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 7px;
+
 }
 
 .logo-links {
-    width: 70%
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
 }
 
-.sit-name {}
+.sit-name {
+    font-weight: bold;
+    font-size: 20px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.links {}
+.sit-name span {
+    font-weight: bold;
+    font-size: 20px;
+}
 
-.website-div {}
+.links {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+
+.website-div {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+a:hover {
+    cursor: pointer;
+    color: green;
+}
