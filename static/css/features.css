@@ -1,0 +1,41 @@
+.nursing {
+    width: 100;
+    /* height: 500px; */
+    display: flex;
+    /* padding: 15px; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paragraph-video {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.paragraph-video video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.paragraph-video h1 {
+    margin: 0px 0px 10px 0px;
+}
+
+.nurses {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nursing img {}
