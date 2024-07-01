@@ -1,0 +1,80 @@
+.story {
+    padding: 15px;
+}
+
+.story p {
+    font-weight: 200;
+    font-weight: lighter;
+    line-height: 150%;
+}
+
+.me {
+    display: flex;
+}
+
+.me p {
+    line-height: 150%;
+    display: flex;
+    align-self: center;
+
+}
+
+.special-heading {
+    color: #ebeced;
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.contact {
+    background: #f6f6f6;
+    height: 85vh;
+}
+
+.contact .email-text {
+    color: #2c4755;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.contact .contact-main a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.contact .social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.social-media a {
+    font-size: 20px;
+}
+
+.contact-main {
+    margin-top: 120px;
+}
+
+.repo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .contact-main h1,
+.contact .contact-main p,
+.contact .contact-main a {
+    text-align: center;
+}
+
+.contact .contact-main div:first-of-type {
+    text-align: center;
+}
