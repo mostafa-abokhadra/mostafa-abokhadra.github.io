@@ -1,0 +1,25 @@
+header {
+    width: 100%
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+}
+
+.header-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-links {
+    width: 70%
+}
+
+.sit-name {}
+
+.links {}
+
+.website-div {}

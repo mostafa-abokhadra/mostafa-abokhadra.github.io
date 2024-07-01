@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPH</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/header.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/footer.css')}}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <section class="header-section">
+                <div class="logo-links">
+                    <div class="sit-name">
+                        <a href="{{url_for('landing')}}">NPH</a>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <a href="{{url_for('features')}}">features</a>
+                            </li>
+                            <li>
+                                <a href="{{url_for('about')}}">about</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="website-div">
+                    <a href="#">website</a>
+                </div>
+            </section>
+        </div>
+    </header>
+    <footer>
+        <div class="container">
+            <span>footer</span>
+        </div>
+    </footer>
+</body>
+</html>
