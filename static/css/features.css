@@ -13,7 +13,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
 }
 
 .paragraph-video video {
@@ -23,11 +22,12 @@
     align-items: center;
     width: 90%;
     border: 1px solid black;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 .paragraph-video h1 {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 20px 0px;
+    font-size: 40px;
 }
 
 .nurses {
